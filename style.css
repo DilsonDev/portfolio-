@@ -1,0 +1,159 @@
+#header ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: scroll;
+    background-color: #4CAF50;
+}
+
+#header li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #333;
+}
+
+#about {
+  text-align: left;
+	width: 85%;
+	margin: 1px 70px;
+	padding: 30px;
+	background: #ffffff;
+  align-self: center;
+}
+
+#portfolio{
+  text-align:;
+	width: 85%;
+	margin: 5px 70px;
+	padding: 30px;
+	background: #ffffff;
+  align-self: center;
+}
+
+#contact {
+  font-color: white;
+	width: 85%;
+	margin: 5px 70px;
+  padding: 30px;
+	background: #ffffff;
+  align-self: center;
+}
+
+.container {
+  margin: auto;
+	padding: 50px;
+  align-self: center;
+  width: 100%;
+  background-color: #333;
+  position: ralative;
+  left:50%;
+}
+
+#footer{
+    list-style-type: none;
+    margin: 5;
+    padding: 50px;
+    background-color: #4CAF50;
+    width: 100%;
+    bottom: 1%;
+    position: ralative;
+    font-size: 12px;
+    text-align: center;
+}
+
+ul.rig {
+	list-style: none;
+	font-size: 0px;
+	margin-left: -2.5%; /* should match li left margin */
+}
+ul.rig li {
+	display: inline-block;
+	padding: 10px;
+	margin: 0 0 2.5% 2.5%;
+	background: #fff;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	font-size: 1rem;
+	vertical-align: top;
+	box-shadow: 0 0 5px #ddd;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+ul.rig li img {
+	max-width: 100%;
+	height: auto;
+	margin: 40 50 10 10px;
+}
+ul.rig li h3 {
+	margin: 0 0 5px;
+}
+ul.rig li p {
+	font-size: .9em;
+	line-height: 1.5em;
+	color: #999;
+}
+/* class for 2 columns */
+ul.rig.columns-2 li {
+	width: 47.5%; /* this value + 2.5 should = 50% */
+}
+/* class for 3 columns */
+ul.rig.columns-3 li {
+	width: 30.83%; /* this value + 2.5 should = 33% */
+}
+/* class for 4 columns */
+ul.rig.columns-4 li {
+	width: 22.5%; /* this value + 2.5 should = 25% */
+}
+ 
+@media (max-width: 480px) {
+	ul.grid-nav li {
+		display: block;
+		margin: 0 0 5px;
+	}
+	ul.grid-nav li a {
+		display: block;
+	}
+	ul.rig {
+		margin-left: 0;
+	}
+	ul.rig li {
+		width: 100% !important; /* over-ride all li styles */
+		margin: 0 0 20px;
+	}
+}
+
+#content2 p {
+  text-align: center;
+}
+
+#img:hove r{
+  hover-opacity: ;
+}
+
+#about img { 
+  width: 150px;
+  height: 180px;
+  
+}
+
+a { 
+ text-decoration:none; 
+} 
