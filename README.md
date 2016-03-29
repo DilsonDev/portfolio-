@@ -1,2 +1,2 @@
 # portfolio-
-This is my firt portfolio with the FreeCodeCamp 
+This is my first portfolio with FreeCodeCamp 
